@@ -1,0 +1,6 @@
+The working directory is the place where files are checked out. In other CVCS, developers generally make modifications and commit their changes directly to the repository. But Git uses a different strategy. Git doesn’t track each and every modified file. Whenever you do commit an operation, Git looks for the files present in the staging area. Only those files present in the staging area are considered for commit and not all the modified files. 
+
+Let us see the basic workflow of Git. 
+
+Step 1: You modify a file from the working directory. 
+Step 2: You add these files to the staging area.
